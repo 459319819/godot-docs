@@ -21,36 +21,14 @@ export default defineConfig({
     // root 是默认语言，且必须有；否则不显示语言切换图标
     root: {
       // 切换语言时显示的标签内容
-      label: 'English',
+      label: '中文',
       // 当前语言下，网站的标签
-      title: 'Godot docs',
+      title: 'Godot 中文文档',
       // html 标签中的属性
-      lang: 'en-US',
+      lang: 'zh-CN',
       // 站点的描述。这将呈现为页面 HTML 中的 <meta> 标签
       description: '...',
       // 指定文档访问路径的前缀
-      link: '/en/',
-      themeConfig: {
-        nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Manual', link: '/en/manual/intro' }
-        ],
-        sidebar: [
-          {
-            text: 'Examples',
-            items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
-            ]
-          }
-        ],
-      }
-    },
-    zh: {
-      label: '中文',
-      title: 'Godot 中文文档',
-      lang: 'zh-CN',
-      description: '...',
       link: '/zh/',
       // 覆盖根级别的主题配置
       themeConfig: {
@@ -74,6 +52,28 @@ export default defineConfig({
           },
         ],
       },
+    },
+    en: {
+      label: 'English',
+      title: 'Godot docs',
+      lang: 'en-US',
+      description: '...',
+      link: '/en/',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/en/' },
+          { text: 'Manual', link: '/en/manual/intro' }
+        ],
+        sidebar: [
+          {
+            text: 'Examples',
+            items: [
+              { text: 'Markdown Examples', link: '/markdown-examples' },
+              { text: 'Runtime API Examples', link: '/api-examples' }
+            ]
+          }
+        ],
+      }
     }
   },
 })
