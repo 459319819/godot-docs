@@ -4,6 +4,8 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
   title: "Godot 中文文档",
   description: "Godot 游戏引擎，中文社区文档",
+  // 如果是部署到 GitHub 上，那么这里是 GitHub 的仓库名称
+  base: '/godot-docs/',
   // 这里是所有语言通用的配置
   themeConfig: {
     // 站点LOGO
