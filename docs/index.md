@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "Godot Engine"
-  text: "Godot 游戏引擎，社区文档"
-  tagline: My great project tagline
+  tagline: 一个专注于 Godot 游戏开发的中文社区
   actions:
     - theme: brand
       text: 中文手册
