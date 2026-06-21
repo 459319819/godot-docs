@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 中文手册
-      link: /zh/manual/intro/
+      link: /manual/intro/
     - theme: alt
       text: 加入我们
       link: /api-examples
